@@ -7,5 +7,9 @@ button.addEventListener("click", function() {
     //  - If the input is "rainy", change the text in the paragraph tag to "Bring an umbrella!"
     //  - Else, change the text in the paragraph tag to "Enjoy the sun!"
 
-
-});
+if (weather == "rainy"){
+    paragraph.innerHTML = (" Bring an umbrella!")
+} else {
+    paragraph.innerHTML = ("Enjoy the sun!")
+}
+    });
